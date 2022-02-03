@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EthanJMcDermott/cryptoTracker/static/css/main.5385f6f4.css",
-    "main.js": "/EthanJMcDermott/cryptoTracker/static/js/main.d98c117e.js",
-    "static/js/787.284a3ba0.chunk.js": "/EthanJMcDermott/cryptoTracker/static/js/787.284a3ba0.chunk.js",
-    "index.html": "/EthanJMcDermott/cryptoTracker/index.html",
-    "main.5385f6f4.css.map": "/EthanJMcDermott/cryptoTracker/static/css/main.5385f6f4.css.map",
-    "main.d98c117e.js.map": "/EthanJMcDermott/cryptoTracker/static/js/main.d98c117e.js.map",
-    "787.284a3ba0.chunk.js.map": "/EthanJMcDermott/cryptoTracker/static/js/787.284a3ba0.chunk.js.map"
+    "main.css": "/EthanJMcDermott/cryptoTracker/blob/master/public/index.html/static/css/main.5385f6f4.css",
+    "main.js": "/EthanJMcDermott/cryptoTracker/blob/master/public/index.html/static/js/main.8f79d07b.js",
+    "static/js/787.284a3ba0.chunk.js": "/EthanJMcDermott/cryptoTracker/blob/master/public/index.html/static/js/787.284a3ba0.chunk.js",
+    "index.html": "/EthanJMcDermott/cryptoTracker/blob/master/public/index.html/index.html",
+    "main.5385f6f4.css.map": "/EthanJMcDermott/cryptoTracker/blob/master/public/index.html/static/css/main.5385f6f4.css.map",
+    "main.8f79d07b.js.map": "/EthanJMcDermott/cryptoTracker/blob/master/public/index.html/static/js/main.8f79d07b.js.map",
+    "787.284a3ba0.chunk.js.map": "/EthanJMcDermott/cryptoTracker/blob/master/public/index.html/static/js/787.284a3ba0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5385f6f4.css",
-    "static/js/main.d98c117e.js"
+    "static/js/main.8f79d07b.js"
   ]
 }
