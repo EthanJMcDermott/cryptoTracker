@@ -32,15 +32,54 @@ h1 {
 .coinInfo {
   color: black;
   width: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coinInfoHeader {
+  color: white;
+  font-size: 1.15rem;
+  width: 7rem;
+  text-align: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coinsHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  color: white;
+  border-radius: 50px;
+  padding: 2%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .cryptoCurrency {
   display: flex;
-  justify-content: space-evenly;
-  width: 98%;
+  justify-content: space-between;
   background-color: white;
   border-radius: 50px;
   padding: 2%;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-align: center;
+}
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar input{
+  padding: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  width: 10rem;
+  margin-top: 2rem;
 }

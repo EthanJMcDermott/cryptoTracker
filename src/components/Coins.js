@@ -1,17 +1,33 @@
 import CryptoCurrency from "./CryptoCurrency"
 
-const Coins = ({ coins, coinImages }) => {
-    const coinData = []
-    const coinLogos = []
+const Coins = ({ coins }) => {
     
-    for (const item in coinImages){ coinLogos.push(coinImages[item])}
-
-    for (const item in coins){ coinData.push(coins[item]) }
-    console.log(coinLogos)
+    // for (var i=0; i<coinData.length; i++) {
+    //     coinData[i].logo = coinLogos[i].logo
+    // }
+    // var newLogo = coinLogos[0].logo
+    // console.log(coinImages[2])
+    // console.log(coinData[0])
+    // coinData[0].logo = coinLogos[0].logo
+    // console.log(coinLogos)
+    // console.log(coinData[0].logo)
     return (
         <div className="coins">
-            {coinData.map( (coin) => (<CryptoCurrency key={coin.id} coin={coin}/>) )}
-            {/* {coinLogos.map( (logo) => (<CryptoCurrency key={logo.id+1000} logo={logo} />))} */}
+            <div className="coinsHeader">
+                <div className="coinInfoHeader">
+                    Name
+                </div>
+                <div className="coinInfoHeader">
+                    Symbol
+                </div>
+                <div className="coinInfoHeader">
+                    Price (USD)
+                </div>
+                <div className="coinInfoHeader">
+                    Last 24 hours
+                </div>
+            </div>
+            {coins.map( (coin) => (<CryptoCurrency key={coin.id} coin={coin}/>) )}
         </div>
     )
     
